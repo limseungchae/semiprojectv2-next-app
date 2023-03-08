@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },  
+  },
   "dependencies": {
     "next": "10.2.3",
     "react": "16.14.0",

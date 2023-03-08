@@ -3,7 +3,7 @@
 #wrapper { width: 960px; margin: 0 auto; }
 
 nav ul { list-style: none; margin: 0; padding: 0 }
-nav ul li { display: inline-block; padding: 0 65px; }
+nav ul li { display: inline-block; padding: 0 60px; }
 
 a:link { color: black; text-decoration: none; font-weight: bold; }
 a:visited { color: black; }
@@ -37,32 +37,26 @@ button { padding: 5px 7px }
 /* 게시판 목록 */
 .board { width: 700px; margin: 0 auto;
         table-layout: fixed; border-collapse: collapse }
+
 .board td { text-align: center; padding: 7px }
 .board td:nth-child(2) { white-space: nowrap;
-        overflow: hidden; text-overflow: ellipsis; }
-.board th { padding:7px; background: lightgoldenrodyellow }
+        overflow: hidden; text-overflow: ellipsis }
+.board th { padding:7px;
+        background: lightgoldenrodyellow }
 .board tr:nth-child(odd) { background: #e4f7ba }
 .board tr:nth-child(even) { background: #cef279 }
 .alignrgt { text-align-last: right }
-.alignlft { text-align: left !important; }
-.board td:nth-child(2), .board th:nth-child(2) {
-        text-align: left }
+
 .pagenation { list-style: none; padding: 0;
-        margin: 0 auto; text-align: center }
-.pagenation li { display: inline-block; padding: 6px; }
-.cpage { font: bold 32px '맑은 고딕'; color: red; }
+        margin: 0 auto; width: 435px }
+.pagenation li { display: inline-block; padding: 10px; }
+.cpage { font: bold 48px '맑은 고딕'; color: red }
 .prev { color: #cccccc }
-select { padding: 3px }
-input[type="text"] { padding: 5px }
 
 .active {
-        background-color: #0099FF; color: white !important;
-        padding: 15px 30px
-}
+    background-color: #0099FF; color: white !important;
+    padding: 15px 30px
+        }
 
 .logo { padding: 50px 110px ; width: 75% }
-
-
-
-
 
